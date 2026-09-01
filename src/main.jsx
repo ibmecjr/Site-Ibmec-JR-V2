@@ -4,4 +4,4 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './styles/index.css';
 
-createRoot(document.getElementById('root')).render(<StrictMode><BrowserRouter><App /></BrowserRouter></StrictMode>);
+createRoot(document.getElementById('root')).render(<StrictMode><BrowserRouter basename="/Site-Ibmec-JR-V2"><App /></BrowserRouter></StrictMode>);
